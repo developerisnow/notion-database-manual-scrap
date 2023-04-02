@@ -7,7 +7,7 @@ When there is an accumulation of more than 500+ databases and in total more than
 # Solution
 The following semi-manual method was used to obtain a list of all databases:
 
-Create a new database and select from the list of existing ones. The Network search query will return a JSON with a list of all databases. Keep pressing "view 20 more" until all databases are loaded and the last search JSON is the list of all databases.
+Create a new database and select from the list of existing ones. Use "Developer tools" tab Network, tab XHR requests, find "search" query. The Network search query will return a JSON with a list of all databases. Keep pressing "view 20 more" until all databases are loaded and the last search JSON is the list of all databases.
 
 Use https://codebeautify.org/jsonviewer to beautify the structure and re-save to a file manually.
 You'll get 3+mb json for i.e. in my case
