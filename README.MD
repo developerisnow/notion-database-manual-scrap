@@ -63,8 +63,7 @@ Add the special characters ^^^^ at the beginning of each line for databases and 
 
 Write a Python script to parse the file and extract the necessary entries, saving them to a .txt file. The script used is as follows:
 
-python
-Copy code
+```
 with open("./data/jsonviewer.json", "r") as json_file:
     lines = json_file.readlines()
 
@@ -76,13 +75,15 @@ for line in lines:
 
 with open("output.txt", "w") as output_file:
     output_file.write('\n'.join(output_lines))
+```
+
 Manually convert the output.txt file to .csv format using search & replace. The resulting file should have the following format:
 
-bash
-Copy code
+```
 id,title-of-database
 8e07fc21-f6c1-4d0f-8c81-43cffa5acaac,DeprecatedSprints
 8ed4e2d2-7df7-4905-a09d-1876f260e56b,Competitive Landscape
+```
 This method provides a workable solution for obtaining a list of all databases in order to clean up unnecessary ones.
 
 Usage
