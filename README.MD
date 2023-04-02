@@ -86,13 +86,13 @@ id,title-of-database
 ```
 This method provides a workable solution for obtaining a list of all databases in order to clean up unnecessary ones.
 
-Usage
+# Usage
 This repository provides the Python script used to parse the jsonviewer.json file and extract the necessary entries, as well as an example output.txt file. To use the script, simply run it in a Python environment with the jsonviewer.json file in the ./data directory. The script will output a output.txt file in the same directory with the necessary entries.
 
-Contributing
+# Contributing
 Feel free to contribute to this repository by creating pull requests or opening issues.
 
 When contributing, please follow the best practices and guidelines for contributing to open-source projects.
 
-License
+# License
 This repository is licensed under the MIT license. See the LICENSE file for details.
